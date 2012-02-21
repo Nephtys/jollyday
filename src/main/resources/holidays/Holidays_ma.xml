@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:Configuration hierarchy="ma" description="Morocco"
+	xmlns:tns="http://www.example.org/Holiday" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.example.org/Holiday /Holiday.xsd">
+	<tns:Holidays>
+		<tns:Fixed month="JANUARY" day="1" descriptionPropertiesKey="NEW_YEAR" />
+		<tns:Fixed month="JANUARY" day="11" descriptionPropertiesKey="INDEP_MANIFESTO_MOROCCO" validFrom="1944" />
+		<tns:Fixed month="MAY" day="1" descriptionPropertiesKey="LABOUR_DAY" />
+		<tns:Fixed month="JULY" day="30" descriptionPropertiesKey="THRONE_DAY" validFrom="1999" />
+		<tns:Fixed month="AUGUST" day="14" descriptionPropertiesKey="WADI_ED_DAHAB_ALLEGIANCE" validFrom="1979" />
+		<tns:Fixed month="AUGUST" day="20" descriptionPropertiesKey="KINGS_AND_PEOPLE_REVOLUTION_ANNIVERSARY" validFrom="1953" />
+		<tns:Fixed month="AUGUST" day="21" descriptionPropertiesKey="KING_MOHAMMED_VI_BIRTHDAY" validFrom="1999" />		
+		<tns:Fixed month="NOVEMBER" day="6" descriptionPropertiesKey="GREEN_MARCH_ANNIVERSARY" validFrom="1975" />		
+		<tns:Fixed month="NOVEMBER" day="18" descriptionPropertiesKey="INDEP_DAY_MOROCCO" validFrom="1956" />
+		<tns:IslamicHoliday type="NEWYEAR" />
+		<tns:IslamicHoliday type="ID_AL_FITR" />
+		<tns:IslamicHoliday type="ID_UL_ADHA" />
+		<tns:IslamicHoliday type="MAWLID_AN_NABI" />
+	</tns:Holidays>
+</tns:Configuration>
