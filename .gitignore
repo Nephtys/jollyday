@@ -1,3 +1,4 @@
 .idea
 jollyday.iml
-
+*.DS_Store*
+target
